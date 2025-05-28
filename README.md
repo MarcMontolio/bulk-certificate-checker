@@ -1,6 +1,9 @@
-# bulk-certificate-checker
+¡# bulk-certificate-checker
 
-**Short description of the project**
+**Bulk SSL/TLS certificate expiration checker**
+
+This tool reads a list of hostnames or URLs and reports certificate expiry dates in bulk.  
+Ideal for DevOps and security audits.
 
 ---
 
@@ -9,48 +12,4 @@
 ```bash
 git clone https://github.com/MarcMontolio/bulk-certificate-checker.git
 cd bulk-certificate-checker
-# Install dependencies, e.g.:
-# pip install -r requirements.txt
-```
-
----
-
-## ▶️ Usage
-
-```bash
-# Example commands
-```
-
----
-
-## 🧪 Testing
-
-```bash
-# How to run tests, e.g.:
-# pytest
-# npm test
-# go test
-```
-
----
-
-## 📄 Documentation
-
-- **docs/** – Extended documentation  
-- **examples/** – Usage examples
-
----
-
-## ⚙️ CI/CD
-
-This repository uses GitHub Actions for:
-1. **Linting**  
-2. **Running tests**
-
-Workflow located in `.github/workflows/ci.yml`.
-
----
-
-## 📜 License
-
-MIT © 2025 MarcMontolio
+pip install -r requirements.txt
