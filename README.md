@@ -47,7 +47,7 @@ This repository uses GitHub Actions for:
 1. **Linting**  
 2. **Running tests**
 
-Workflow located in .
+Workflow located in `.github/workflows/ci.yml`.
 
 ---
 
